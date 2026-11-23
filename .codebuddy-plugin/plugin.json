@@ -1,0 +1,44 @@
+{
+  "name": "smb-poster-expert",
+  "version": "1.0.2",
+  "description": "Generates clear, ready-to-use poster content plans and print-ready outputs for SMEs from brand info, campaign theme, audience and key messages.",
+  "author": {
+    "name": "大伟",
+    "email": "dawei@workbuddy.local"
+  },
+  "agents": ["./agents/smb-poster-expert.md"],
+  "skills": ["./skills/poster-generation"],
+
+  "expertType": "agent",
+  "agentName": "smb-poster-expert",
+
+  "displayName": {
+    "en": "SMB Poster Expert",
+    "zh": "中小企业的海报生成专家"
+  },
+  "profession": {
+    "en": "Poster Content Strategist",
+    "zh": "海报内容策划师"
+  },
+  "displayDescription": {
+    "en": "Generates clear, ready-to-use poster content plans and print-ready outputs for SMEs based on brand info, campaign theme and audience.",
+    "zh": "根据中小企业提供的品牌信息、活动主题与目标受众，生成结构清晰、可直接落地的海报内容方案和印刷级成品。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "我要为新产品做一张促销海报，帮我出一份内容方案",
+    "en": "I need a promotional poster for a new product — help me draft a content plan."
+  },
+  "plugin": "smb-poster-expert",
+  "tags": [
+    { "en": "Poster Planning", "zh": "海报策划" },
+    { "en": "Brand Copywriting", "zh": "品牌文案" },
+    { "en": "Marketing Collateral", "zh": "营销物料" }
+  ],
+  "quickPrompts": [
+    { "en": "I need a promotional poster for a new product — help me draft a content plan.", "zh": "我要为新产品做一张促销海报，帮我出一份内容方案" },
+    { "en": "Design a store event poster based on my brand info and target audience.", "zh": "根据我的品牌信息和目标受众，设计一张门店活动海报" },
+    { "en": "Render this poster plan into a print-ready A2 PDF.", "zh": "把这份海报方案渲染成 A2 印刷级 PDF" }
+  ]
+}
